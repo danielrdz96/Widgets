@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./range.page.scss'],
 })
 export class RangePage implements OnInit {
+  porcentaje=0.05;
 
   constructor() { }
 
   ngOnInit() {
+  }
+  cambioRango(event){
+    console.log(event);
+
   }
 
 }

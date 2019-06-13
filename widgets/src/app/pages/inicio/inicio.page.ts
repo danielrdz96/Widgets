@@ -6,53 +6,70 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./inicio.page.scss'],
 })
 export class InicioPage implements OnInit {
-  componentes: Componente [] = [{
-    nombre: 'Alert',
-    icono: 'american-football',
-    url: '/alert'
+  componentes:Componente[]=[{
+    nombre:'Alert',
+    icono:'american-football',
+    url:'/alert'
   },
   {
-    nombre: 'Action Sheet',
-    icono: 'appstore',
-    url: '/action-sheet'
+    nombre:'Action Sheet',
+    icono:'appstore',
+    url:'/action-sheet'
   }
   ,
   {
-    nombre: 'Avatar',
-    icono: 'happy',
-    url: '/avatar'
+    nombre:'Avatar',
+    icono:'happy',
+    url:'/avatar'
   }  ,
   {
-    nombre: 'Button',
-    icono: 'appstore',
-    url: '/button'
+    nombre:'Button',
+    icono:'play',
+    url:'/button'
   } ,
   {
-    nombre: 'Fab',
-    icono: 'appstore',
-    url: '/fab'
+    nombre:'Fab',
+    icono:'appstore',
+    url:'/fab'
   },
   {
-    nombre: 'Check',
-    icono: 'checkmark-circle-outline',
-    url: '/check'
+    nombre:'Check',
+    icono:'checkmark-circle-outline',
+    url:'/check'
   },
   {
-    nombre: 'Grid',
-    icono: 'grid',
-    url: '/grid'
+    nombre:'Grid',
+    icono:'grid',
+    url:'/grid'
   },
   {
-    nombre: 'Range',
-    icono: 'cube',
-    url: '/range'
+    nombre:'Range',
+    icono:'cube',
+    url:'/range'
   },
   {
-    nombre: 'Infinite',
-    icono: 'infinite',
-    url: '/infinite'
+    nombre:'Loading',
+    icono:'refresh',
+    url:'/loading'
+  },
+  {
+    nombre:'Infinite',
+    icono:'infinite',
+    url:'/infinite'
+  },
+  {
+    nombre:'Navegacion',
+    icono:'paper',
+    url:'/navegacion'
+  },
+  {
+    nombre:'Popover',
+    icono:'book',
+    url:'/popover'
   },
 ];
+
+
 
   constructor() { }
 
@@ -61,8 +78,8 @@ export class InicioPage implements OnInit {
 
 }
 
-interface Componente {
-  nombre: string;
-  icono: string;
-  url: string;
+interface Componente{
+  nombre:string;
+  icono:string;
+  url:string;
 }

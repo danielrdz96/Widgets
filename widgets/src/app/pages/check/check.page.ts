@@ -14,15 +14,6 @@ export class CheckPage implements OnInit {
     },{
       name:'secondary',
       selected:false
-    },{
-      name:'tertiary',
-      selected:false
-    },{
-      name:'primary',
-      selected:false
-    },{
-      name:'success',
-      selected:true
     }
   ];
 

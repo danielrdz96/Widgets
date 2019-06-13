@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./infinite.page.scss'],
 })
 export class InfinitePage implements OnInit {
-  data: any[]= Array(20);
+  data: any[]= Array(14);
 
   constructor() { }
 
