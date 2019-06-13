@@ -14,6 +14,7 @@ const routes: Routes = [
   { path: 'check', loadChildren: './pages/check/check.module#CheckPageModule' },
   { path: 'grid', loadChildren: './pages/grid/grid.module#GridPageModule' },
   { path: 'infinite', loadChildren: './pages/infinite/infinite.module#InfinitePageModule' },
+  { path: 'range', loadChildren: './pages/range/range.module#RangePageModule' },
 ];
 
 @NgModule({

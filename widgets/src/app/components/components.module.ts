@@ -9,7 +9,7 @@ import { IonicModule } from '@ionic/angular';
     HeaderComponent
   ],
 
-  exports:[
+  exports: [
     HeaderComponent
 
   ],
